@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    //border: 1px solid black;
+}
+
+:root {
+    --Red: #EA5454;
+    --Cyan: #44D3D2;
+    --Orange: #FCAE4A;
+    --Blue: #549EF2;
+    --Dark-blue: #4D4F62;
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+
+
+body {
+    font-family: "Poppins", serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    background-color: var(--Very-Light-Gray);
+
+}
+
+header {
+    text-align: center;
+    color: var(--Dark-blue);
+}
+
+.reliable {
+    font-size: 36px;
+    font-weight: 200;
+
+}
+
+.powered {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+header p {
+    margin-bottom: 4rem;
+    color: var(--Grayish-Blue);
+}
+
+/*
+main {
+padding-left: 20rem;
+padding-right: 20rem;
+}    */
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.card {
+    max-width: 350px;
+    min-width: 311px;
+    height: 250px;
+    padding: 1rem 0 1rem 1rem;
+    border: none;
+    border-top: solid 4px;
+    color: var(--Dark-blue);
+    box-shadow: 0px 9px 30px -5px rgba(0, 0, 0, 0.45);
+    border-radius: 5px;
+
+}
+
+.supervisor-card {
+    border-top-color: var(--Cyan);
+}
+
+.team-builder-card {
+    border-top-color: var(--Red)
+}
+
+.karma-card {
+    border-top-color: var(--Orange);
+}
+
+.calculator-card {
+    border-top-color: var(--Blue);
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.card-text {
+    color: var(--Grayish-Blue);
+    font-weight: 300;
+    font-size: 0.8rem;
+    margin-right: 2rem;
+}
+
+
+
+.card img {
+
+    margin: 7% 4% 0 73%;
+
+}
+
+.middle-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+
+
+
+
+
+
+/*
+< !-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+*/
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+
+@media (max-width: 1200px) {
+    .cards {
+        flex-wrap: nowrap;
+    }
+
+    .card {
+        max-width: 270px;
+        height: 222px;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    .cards {
+        flex-direction: column;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+
+    .reliable {
+        font-size: 24px;
+        font-weight: 200;
+
+    }
+
+    .powered {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+
+
+    .card {
+        max-width: 311px;
+        height: 222px;
+
+    }
+}
