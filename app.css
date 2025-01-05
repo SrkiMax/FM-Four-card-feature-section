@@ -23,12 +23,14 @@ body {
     flex-direction: column;
     font-size: 15px;
     background-color: var(--Very-Light-Gray);
+    padding-top: 4rem;
 
 }
 
 header {
     text-align: center;
     color: var(--Dark-blue);
+
 }
 
 .reliable {
