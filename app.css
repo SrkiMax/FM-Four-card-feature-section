@@ -23,7 +23,7 @@ body {
     flex-direction: column;
     font-size: 15px;
     background-color: var(--Very-Light-Gray);
-    padding-top: 3rem;
+    padding-top: 2.5rem;
 
 }
 
@@ -50,6 +50,7 @@ header {
 header p {
     margin-bottom: 4rem;
     color: var(--Grayish-Blue);
+    margin-top: 1rem;
     max-width: 500px;
     align-self: center;
 
