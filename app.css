@@ -23,13 +23,15 @@ body {
     flex-direction: column;
     font-size: 15px;
     background-color: var(--Very-Light-Gray);
-    padding-top: 4rem;
+    padding-top: 3.5rem;
 
 }
 
 header {
     text-align: center;
     color: var(--Dark-blue);
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -47,6 +49,8 @@ header {
 header p {
     margin-bottom: 4rem;
     color: var(--Grayish-Blue);
+    max-width: 500px;
+    align-self: center;
 }
 
 /*
